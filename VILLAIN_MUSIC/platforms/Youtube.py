@@ -18,8 +18,8 @@ import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
-from SONALI_MUSIC.utils.database import is_on_off
-from SONALI_MUSIC.utils.formatters import time_to_seconds
+from VILLAIN_MUSIC.utils.database import is_on_off
+from VILLAIN_MUSIC.utils.formatters import time_to_seconds
 import glob
 import random
 import logging
@@ -1131,3 +1131,4 @@ async def test_improved_search(query: str):
 # 🔗 Source link : GitHub.com/suraj08832/Sonali-MusicV2
 # 📢 Telegram channel : t.me/about_brahix
 # =======================================================
+
