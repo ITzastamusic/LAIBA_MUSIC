@@ -24,7 +24,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ✅ FIXED API (returns {"status":"running"})
-API_URL = getenv("API_URL", "https://api.nexgenbots.xyz")
+API_URL = getenv("API_URL", "https://api.thequickearn.xyz")
 VIDEO_API_URL = getenv("VIDEO_API_URL", "https://api.video.thequickearn.xyz")
 API_KEY = getenv("API_KEY", "NxGBNexGenBotsa02f5a")
 
