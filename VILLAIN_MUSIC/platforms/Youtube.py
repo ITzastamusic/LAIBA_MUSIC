@@ -13,7 +13,8 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-from ytSearch import VideosSearch, Playlist
+#from ytSearch import VideosSearch, Playlist
+from youtubesearchpython import VideosSearch, Playlist
 from VILLAIN_MUSIC import LOGGER
 from VILLAIN_MUSIC.utils.database import is_on_off
 from VILLAIN_MUSIC.utils.formatters import time_to_seconds
