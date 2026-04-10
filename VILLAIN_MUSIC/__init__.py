@@ -1,6 +1,6 @@
 from VILLAIN_MUSIC.core.bot import villain
 from VILLAIN_MUSIC.core.dir import dirr
-from VILLAIN_MUSIC.core.git import git
+#from VILLAIN_MUSIC.core.git import git
 from VILLAIN_MUSIC.core.userbot import Userbot
 from VILLAIN_MUSIC.misc import dbb, heroku
 
@@ -8,7 +8,7 @@ from SafoneAPI import SafoneAPI
 from .logging import LOGGER
 
 dirr()
-git()
+#git()
 dbb()
 heroku()
 
