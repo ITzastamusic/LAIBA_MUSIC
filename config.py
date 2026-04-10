@@ -21,10 +21,9 @@ OWNER_ID = int(getenv("OWNER_ID", 5909658683))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-# ✅ FIXED API (returns {"status":"running"})
-API_URL = getenv("API_URL", "https://tgapi.xbitcode.com")
-VIDEO_API_URL = getenv("VIDEO_API_URL", "https://api.video.thequickearn.xyz")
-API_KEY = getenv("API_KEY", "xbit_3nW_hlcVau6UYCNWHJhSdZJV2rWbnTSH")  #api key youtube song api key
+# Vars For API End Pont.
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
+YT_API_KEY = getenv("YT_API_KEY"  'xbit_3nW_hlcVau6UYCNWHJhSdZJV2rWbnTSH', None ) ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ITzastamusic/LAIBA_MUSIC",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
