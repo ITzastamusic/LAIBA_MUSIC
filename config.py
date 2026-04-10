@@ -22,9 +22,9 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ✅ FIXED API (returns {"status":"running"})
-API_URL = getenv("API_URL", "https://api.nexgenbots.xyz")
+API_URL = getenv("API_URL", "https://tgapi.xbitcode.com")
 VIDEO_API_URL = getenv("VIDEO_API_URL", "https://api.video.thequickearn.xyz")
-API_KEY = getenv("API_KEY", "NxGBNexGenBotsa4bef4")  #api key youtube song api key
+API_KEY = getenv("API_KEY", "xbit_3nW_hlcVau6UYCNWHJhSdZJV2rWbnTSH")  #api key youtube song api key
 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ITzastamusic/LAIBA_MUSIC",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
